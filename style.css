@@ -1,0 +1,145 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#header{
+    width: 100%;
+}
+
+#header #navbar{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid rgb(154, 150, 150); */
+
+}
+
+#header #navbar .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: rgb(27, 26, 25); */
+}
+
+#header #navbar .main .item1{
+    width: 20%;
+    height: 100%;
+    background: url(images/saylanilogo.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header #navbar .main .item2{
+    width: 60%;
+    padding-left: 20px;
+    /* background-color: rgb(102, 116, 116); */
+    padding-top: 35px;
+}
+
+#header #navbar .main .item2 ul{
+    display: flex;
+    /* justify-content: center; */
+    list-style: none;
+    align-items: center;
+    
+}
+
+#header #navbar .main .item2 ul a{
+    text-decoration: none;
+    padding: 30px 20px;
+    color: rgb(147, 143, 143);
+}
+
+#sec-1{
+    width: 100%;
+    height: 700px;
+}
+
+#sec-1 .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+#sec-1 .main .item1{
+    width: 50%;
+    /* background-color: rgb(153, 140, 140); */
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+#sec-1 .main .item1 span{
+    padding: 40px;
+}
+
+#sec-1 .main .item1 h1{
+    padding: 40px;
+}
+
+#sec-1 .main .item1 .button{
+    width: 140px;
+    height: 40px;
+    /* border: 1px solid black; */
+margin-left: 40px;
+}
+
+#sec-1 .main .item1 .button:hover{
+    width: 150px;
+    height: 45px;
+}
+
+#sec-1 .main .item2{
+    width: 50%;
+/* background: url(images/bning.png); */
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#sec-1 .main .item2 img{
+    width: 100%;
+    height: 600px;
+}
+
+#sec-2{
+    width: 100%;
+    height: 100px;
+}
+
+#sec-2 h1{
+padding-left: 50px;
+}
+
+#sec-2 .main{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: 20px;
+}
+
+#sec-2 .main button{
+height: 60px;
+margin-left: 10PX; 
+padding: 3px 20px;
+}
+
+/* #sec-2 .main .iten2{
+
+    margin-left: 10PX;}
+    
+#sec-2 .main .iten3{
+
+    margin-left: 10PX;}
+    
+#sec-2 .main .iten4{
+
+    margin-left: 10PX;}
+    
+#sec-2 .main .iten5{
+
+    margin-left: 10PX;}
+    
+#sec-2 .main .iten6{
+
+    margin-left: 10PX;} */
